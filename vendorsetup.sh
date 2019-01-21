@@ -1,0 +1,3 @@
+add_lunch_combo havoc_kenzo-user
+add_lunch_combo havoc_kenzo-userdebug
+add_lunch_combo havoc_kenzo-eng
