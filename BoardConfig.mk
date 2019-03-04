@@ -34,11 +34,6 @@ TARGET_KERNEL_CONFIG := lineageos_kenzo_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# Hal's
-TARGET_QCOM_AUDIO_VARIANT := caf-msm8952
-TARGET_QCOM_DISPLAY_VARIANT := caf-msm8952
-TARGET_QCOM_MEDIA_VARIANT := caf-msm8952
-
 # Sepolicy
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 

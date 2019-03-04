@@ -17,13 +17,13 @@
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 # Inherit some common Havoc-OS stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := havoc_kenzo
+PRODUCT_NAME := dot_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
@@ -36,9 +36,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-keys
 
-# Build Official HavocOS
-HAVOC_BUILD_TYPE := Official
-
-# Define host and user
-KBUILD_BUILD_HOST=DeathNote
-KBUILD_BUILD_USER=PratikPithore
+    DEVICE_MAINTAINERS="Sagar Rokade"
